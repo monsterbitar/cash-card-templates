@@ -1,0 +1,79 @@
+/*
+ * ORANGE
+ */
+.orange #card
+{
+	background-color: rgb(250, 185, 21);
+	background-image: url('../img/patterns/geometry.png');
+}
+.orange #card #information .title
+{
+	color: rgb(250, 185, 21);
+	border-color: rgb(250, 185, 21);
+}
+.orange #information .abstract,
+.orange #information .abstract *
+{
+	color: black;
+	text-shadow: 0px 0px 1px white;
+}
+
+/*
+ * GREEN
+ */
+.green #card
+{
+	background-color: #4cca47;
+	background-image: url('../img/patterns/geometry.png');
+}
+.green #card #information .title
+{
+	color: #4cca47;
+	border-color: #4cca47;
+}
+.green #information .abstract,
+.green #information .abstract *
+{
+	color: black;
+	text-shadow: 0px 0px 1px white;
+}
+
+/*
+ * CHINESE
+ */
+.chinese #card
+{
+	background-color: rgb(195, 30, 10);
+	background-image: url('../img/patterns/floral.png');
+}
+.chinese #card #information .title
+{
+	color: rgb(220, 190, 30);
+	border-color: rgb(220, 190, 30);
+}
+.chinese #information .abstract,
+.chinese #information .abstract *
+{
+	color: white;
+	text-shadow: 0px 0px 1px black;
+}
+
+/*
+ * SNOW
+ */
+.snow #card
+{
+	background-color: rgb(20, 40, 180);
+	background-image: url('../img/patterns/snowflakes.png');
+}
+.snow #card #information .title
+{
+	color: white;
+	border-color: white;
+}
+.snow #information .abstract,
+.snow #information .abstract *
+{
+	color: white;
+	text-shadow: 0px 0px 1px black;
+}

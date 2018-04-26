@@ -1,0 +1,67 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Oomph Card Template</title>
+
+		<link rel="stylesheet" href="css/default.css">
+		<link rel="stylesheet" href="css/oomph.css">
+		<link rel="stylesheet" href="css/oomph_themes.css">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
+	</head>
+
+	<body>
+		<form>
+			<label>
+				Theme:
+				<select name='theme' onchange="javascript: document.getElementById('card_holder').className = this.options[this.selectedIndex].value;">
+					<optgroup label='colors'>
+						<option value='green'>green</option>
+						<option value='orange'>orange</option>
+					</optgroup>
+					<optgroup label='events'>
+						<option value='chinese'>Chinese New Year</option>
+						<option value='snow'>Christmas</option>
+					</optgroup>
+				</select>
+			</label>
+		</form>
+
+		<div id='card_holder' class='green'>
+
+			<div id='card'>
+				<div id='public_key' class='qr touch'>
+					<span class='title'>Public Address</span>
+					<span class='content'>bitcoincash: pp8s kudq3 x5hz w8ew7 vzsw 8tn4k 8wxs qsv0l t0mf 3g</span>
+				</div>
+				<div id='information'>
+					<span class='title'>BITCOIN CASH · DECENTRALIZED MONEY</span>
+					<span class='abstract'>
+						<b>Verify:</b> Touch or scan the public address to see the balance in your mobile wallet.
+						<br /><br />
+						<b>Spend: </b> Reveal and scan the private key to sweep the cash to your mobile wallet.
+						<br /><br />
+						<span style='text-align: left;'>For step-by-step instructions, visit <b>https://tutorial.bitcoin.com/</b></span>
+					</span>
+				</div>
+			</div>
+
+			<div id='card'>
+				<div id='public_key' class='qr secret'>
+					<span class='title'>Private Key</span>
+
+					<span class='content secret'>&nbsp;</span>
+				</div>
+				<div id='information'>
+					<span class='title'>BITCOIN CASH · DECENTRALIZED MONEY</span>
+					<span class='abstract'>
+						<b>Abstract.</b> A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution.
+						<br /><br />
+						<span style='text-align: left;'>To learn more about Bitcoin Cash, visit <b>https://academy.bitcoin.com/</b></span>
+					</span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
